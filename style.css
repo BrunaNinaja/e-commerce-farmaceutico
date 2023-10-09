@@ -1,0 +1,73 @@
+.navbar {
+    min-height: 80px;
+    background-color: #468faf;   
+}
+.navbar-nav .nav-link {
+    color: white; 
+}
+.navbar-brand {
+    color: white; 
+}
+.navbar-nav .nav-link:hover {
+    color: #61a5c2; 
+}
+.coracao {
+    width: 20px; 
+    position:absolute;
+    top: 10px; 
+    left: 10px;
+}
+#rodape {
+    background-color: #d4e3eb;  
+}
+.custom-text-justify {
+    text-align: justify;
+}
+
+.social-midia {
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+}
+.link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 4rem;
+    width: 4rem;
+    background-color: transparent;
+    border-radius: 50%;
+    border: 2px solid white;
+    transition: background-color 0.3s ease;
+    margin-right: 3rem;
+}
+.link + .link {
+    margin-left: 3rem;
+}
+.link:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+.link a {
+    text-decoration: none;
+    color: white;
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
+#instagram {
+    background: linear-gradient(#7f37c9, #ff2992, #ff9807);
+}
+#whatsapp {
+    background: linear-gradient(#4AC959, #25D366);
+}
+#facebook {
+    background: linear-gradient(#1877F2, #0A43B7);
+}
+.extra-space {
+    height: 8rem;
+}
+
